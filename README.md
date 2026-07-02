@@ -2,6 +2,12 @@
 
 A public, redacted research repository for a Doctor YMYL entity-clarity case study involving Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C.
 
+## Live Public Assets
+
+- Hugging Face Space: https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint
+- Direct Gradio score app: https://inspectorroofing-doctor-ymyl-blueprint.hf.space/
+- Positive Outcomes owned website: https://positive-outcomes.com/
+
 ## Research Frame
 
 This project studies how search engines and AI answer systems interpret high-trust local medical and psychological-service entities. The case separates:
@@ -20,7 +26,11 @@ This is an internal audit framework, not a Google certification.
 - High-risk/YMYL: `378/1000 -> 732/1000`, target `945/1000`
 - Google/AEO/YMYL 50-standard score: `231/1000 -> 927/1000`, target `1000/1000`
 
-The final 1000 target requires live plugin verification, homepage theme-builder cleanup, Google Business Profile verification, third-party directory correction/documentation, Zenodo DOI, Hugging Face dataset/Space, Kaggle mirror, and ORCID work record.
+The final 1000 target requires live plugin verification, homepage theme-builder cleanup, Google Business Profile verification, third-party directory correction/documentation, Zenodo DOI, Hugging Face dataset, Kaggle mirror, and ORCID work record.
+
+## URL Tracking
+
+Use `dataset/url-tracking-public.csv` for public link tracking. Canonical URLs should be used for schema, citation, Google Business Profile, and directory correction work. UTM URLs are only for sharing/reporting and should not be used in `sameAs`, canonical tags, or Google Business Profile website fields.
 
 ## Public Source Anchors
 
@@ -36,7 +46,7 @@ The final 1000 target requires live plugin verification, homepage theme-builder 
 
 ## Publication Safety Note
 
-The full local research bundle contains evidence-only working files. Public NPI/license display and final clinical wording should be approved by the office before full release. This public repository intentionally starts with a redacted study README rather than the full internal package.
+The full local research bundle contains evidence-only working files. Public NPI/license display and final clinical wording should be approved by the office before full release. This public repository intentionally excludes the internal evidence package.
 
 ## Authors / Contributors
 

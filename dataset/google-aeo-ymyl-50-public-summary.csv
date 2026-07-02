@@ -1,0 +1,7 @@
+standard_group,before_score,after_package_score,final_target_score,notes
+Helpful content,62,181,200,People-first pages and practice-specific content improved; final theme-builder cleanup remains.
+E-E-A-T and YMYL trust,36,187,200,Expert/practice identity is clearer; final office review and directory correction remain.
+Canonical and crawling,66,188,200,Canonical, robots, llms.txt, and entity graph plugin layer is packaged; live activation remains.
+Structured data,32,191,200,Person/practice/renter separation and medical schema are packaged; live validation remains.
+AEO and AI features,35,180,200,Plain-language AI guidance and reproducible datasets are packaged; public DOI/repo/HF/Kaggle/ORCID links remain.
+TOTAL,231,927,1000,Internal audit score only; not a Google certification.

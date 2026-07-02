@@ -1,0 +1,11 @@
+dimension_id,dimension_label,before_score,after_live_score,after_target_score,live_delta,target_delta,notes
+entity_separation,Entity Separation,35,94,100,59,65,"Live pages and plugin schema now separate Positive Outcomes from Classic City and other onsite renters; directory conflicts remain evidence items."
+provider_attribution,Provider Attribution,45,96,100,51,55,"Harvey L. Gayer, Ph.D. is named as the Positive Outcomes provider, Licensed Psychologist, and Director across live content and schema."
+nap_accuracy,NAP Accuracy,50,90,100,40,50,"Owned-site NAP uses Suite 199, 706-543-3538, fax, email, hours, and appointment route; GBP/directories still need external correction."
+ymyl_verification,YMYL Verification,42,88,100,46,58,"UGA and NPI evidence are mapped; NPI/license identifiers are held for Dr. Gayer and office approval before public display."
+schema_completeness,Schema Completeness,38,95,100,57,62,"Live plugin outputs Person, MedicalClinic/MedicalBusiness/LocalBusiness, Place, WebSite, AboutPage, ContactPage, Dataset, and separation graph."
+eeat_evidence,E-E-A-T Evidence,44,91,100,47,56,"UGA profile, owned-site bio, credential wording, expert service scope, and patient-facing safety language are source-mapped."
+indexing_hygiene,Indexing Hygiene,40,94,100,54,60,"Robots, sitemap reference, canonical filters, noindex conflict logic, attachment sitemap cleanup, and Search Console verification are in place."
+aeo_answerability,AEO Answerability,43,95,100,52,57,"llms.txt, entity-graph.jsonld, visible clarification copy, and FAQ-style answers state the provider, practice, contact route, services, and separation rule."
+directory_alignment,Directory Alignment,30,42,100,12,70,"Healthgrades/GBP/WebMD-style conflicts are documented but require third-party correction or archived proof before final 1000 scoring."
+study_publication,Study Publication Readiness,53,92,100,39,47,"Public-safe GitHub and Hugging Face artifacts are staged; Zenodo DOI, Kaggle, ORCID, screenshots, and final approval remain."

@@ -1,0 +1,11 @@
+# Positive Outcomes robots.txt draft
+
+User-agent: *
+Disallow:
+
+# Preserve public crawling while relying on page-level noindex for outdated
+# or conflicting Classic City pages. Do not block crawlers from pages that
+# need to be deindexed; noindex must be visible to crawlers.
+
+Sitemap: https://positive-outcomes.com/sitemap_index.xml
+Sitemap: https://positive-outcomes.com/entity-graph.jsonld

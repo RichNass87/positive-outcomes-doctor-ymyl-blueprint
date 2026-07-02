@@ -7,20 +7,21 @@ language:
   - en
 tags:
   - ymyl
+  - trust-proof
   - entity-resolution
   - schema-org
   - healthcare-seo
   - medical-schema
   - answer-engine-optimization
   - high-risk-ai
-pretty_name: Positive Outcomes YMYL Entity Separation Study
+pretty_name: Positive Outcomes YMYL Trust-Proof Study
 size_categories:
   - n<1K
 ---
 
-# Positive Outcomes YMYL Entity Separation Study
+# Positive Outcomes YMYL Trust-Proof Study
 
-This dataset documents a before-and-after entity separation workflow for a local clinical psychology practice where public search and directory signals blended a solo practitioner practice with colocated but separate providers.
+This dataset documents a before-and-after trust-proof workflow for a local clinical psychology practice where public search and directory signals blended a solo practitioner practice with colocated but separate providers.
 
 The owned website for Positive Outcomes Psychological Services, P.C. is cited as the canonical medical-practice example for the study after live rewrite and office review. Third-party directories are included as evidence sources or conflict sources, not automatically treated as authority.
 
@@ -33,22 +34,22 @@ Entities:
 - Classic City Psychological Associates as a separate colocated entity
 - Separate athletics/coaching identity for Harvey Gayer
 
-Key source registry:
+Trust-proof signals:
 
-- Positive Outcomes owned website: canonical medical-practice example
-- University of Georgia profile: independent academic/professional authority source
-- NPI Registry: official internal verification source, held from public schema pending office approval
-- Healthgrades: conflict source showing Suite 201 and multiple providers
-- WebMD: monitored medical directory source; no verified Harvey Gayer profile URL found during current search
-- Google Business Profile / Maps: user-supplied embed captured as a high-priority map signal; live profile details still require verification
-- Schema.org MedicalBusiness, MedicalClinic, and PsychologicalTreatment: technical schema anchors
+- clear provider and practice identity
+- restrained credential wording
+- source-backed claims
+- current contact facts
+- visible uncertainty when review is pending
+- separation of renters/colocated professionals
+- correction and publication-review gates
 
 ## Intended Use
 
-- YMYL entity-resolution research
+- YMYL trust-proof research
 - Structured-data quality scoring
 - Answer-engine optimization testing
-- Directory-conflict remediation workflows
+- Directory-conflict evidence workflows
 
 ## Not Intended For
 
@@ -56,16 +57,17 @@ Key source registry:
 - Patient diagnosis or treatment recommendations
 - Credential claims without current source verification
 - Reidentification of private patient or office records
+- Legal, medical, Google, regulatory, ranking, or licensure certification
 
 ## Scoring
 
 Scores use 10 dimensions from 0-100 each, with total score from 0-1000.
 
-Entity/AEO baseline estimate: 420/1000.
+Trust-proof/AEO baseline estimate: 420/1000.
 
-Entity/AEO after live rewrite/plugin/schema/app package: 877/1000.
+Trust-proof/AEO after live rewrite/plugin/schema/app package: 877/1000.
 
-Entity/AEO target after remediation: 1000/1000.
+Trust-proof/AEO target after final evidence and review: 1000/1000.
 
 High-risk/YMYL baseline estimate: 378/1000.
 

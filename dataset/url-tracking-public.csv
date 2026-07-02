@@ -1,0 +1,10 @@
+asset_id,asset_type,title,url,status,notes
+URL001,owned_site,Positive Outcomes homepage,https://positive-outcomes.com/,live_needs_plugin,Canonical practice URL.
+URL002,owned_site,About Harvey L. Gayer,https://positive-outcomes.com/about-us/,live_rewritten,Primary provider/entity page.
+URL003,owned_site,Services,https://positive-outcomes.com/services/,live_rewritten,Therapy/testing/evaluation scope page.
+URL004,owned_site,Contact,https://positive-outcomes.com/contact-us/,live_rewritten,Official appointment route.
+URL005,owned_site,Location,https://positive-outcomes.com/about-us/location-directions/,live_rewritten,Suite/location page; Maps/GBP verification pending.
+URL006,public_repo,GitHub study repo,https://github.com/RichNass87/positive-outcomes-doctor-ymyl-blueprint,live_public_safe,Redacted public-safe repo starter.
+URL007,hugging_face,Hugging Face Space,https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint,live_public_safe,Created under the logged-in InspectorRoofing account.
+URL008,hugging_face,Direct Gradio app,https://inspectorroofing-doctor-ymyl-blueprint.hf.space/,live_public_safe,Direct app endpoint for score and URL tracking.
+URL009,hugging_face,Hugging Face dataset,TBD,pending_auth,Create after HF account/auth is confirmed.

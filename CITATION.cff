@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this blueprint, cite the study package and final DOI once published."
+title: "Doctor YMYL Blueprint: Positive Outcomes Entity Separation Study"
+version: "0.3.0"
+date-released: "2026-07-01"
+authors:
+  - family-names: "Gayer"
+    given-names: "Harvey L."
+    affiliation: "Positive Outcomes Psychological Services, P.C."
+  - name: "Positive Outcomes YMYL Study Team"
+keywords:
+  - "YMYL"
+  - "entity SEO"
+  - "healthcare schema"
+  - "AI answer readiness"
+  - "high-risk AI"
+license: "MIT"
+repository-code: "https://github.com/RichNass87/positive-outcomes-doctor-ymyl-blueprint"
+url: "https://positive-outcomes.com/"

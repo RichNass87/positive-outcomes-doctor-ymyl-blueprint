@@ -17,6 +17,8 @@ This repository is intentionally redacted. It omits exact NPI/license identifier
 - Hugging Face Space: https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint
 - Direct Gradio app: https://inspectorroofing-doctor-ymyl-blueprint.hf.space/
 - Positive Outcomes owned website: https://positive-outcomes.com/
+- Independent-practices clarification target: https://positive-outcomes.com/independent-practices-at-this-address/
+- Harvey owned-site image signal: https://positive-outcomes.com/wp-content/uploads/2014/09/gayer.jpg
 
 Hugging Face deployment may lag this repository until the Space is synced from an authenticated Hugging Face session.
 
@@ -25,7 +27,7 @@ Hugging Face deployment may lag this repository until the Space is synced from a
 The Gradio app includes a site-level YMYL readiness checker. Users can paste a URL, page HTML/text, or JSON-LD and receive a 0-1000 public-readiness audit across:
 
 - YMYL scope and intended-use boundaries
-- provider/person identity and credentials
+- provider/person identity, image signal, and credentials
 - practice/business identity, phone, address, hours, and appointment route
 - service scope and patient-safety boundaries
 - trust proof: restrained claims, source evidence, uncertainty, and correction paths
@@ -48,6 +50,14 @@ This project studies how search engines and AI answer systems interpret high-tru
 
 The broader thesis is not “entity repair.” It is trust proof and cognitive alignment: Google/Search/AI systems do not think like people, but they increasingly reward or depend on signals that also help people trust responsibly: clear identity, current contact facts, verified authority sources, restrained claims, visible uncertainty, and correction paths where third-party listings conflict.
 
+## Independent-Practices Page
+
+The WordPress plugin creates or manages `/independent-practices-at-this-address/`. The page is meant to be indexable and patient-facing so Google, LLMs, directories, patients, and referral sources can understand that independent building occupants are not Positive Outcomes providers.
+
+Names included only for disambiguation, not as Positive Outcomes providers: Classic City Psychological Associates, Dr. Eli Solomon, Dr. Mary Elizabeth Trent, Dr. Jaclyn Evans, Michael Pascale, Dr. Kate Avinger, Dr. Heather Lundy, and Dr. Bailey Irvine.
+
+Positive Outcomes does not schedule for, supervise, verify availability for, or represent independent practices/professionals at the same address. Each independent practice should be contacted through its own public materials.
+
 ## Current Public Score Snapshot
 
 This is an internal audit framework, not a Google score, legal certification, compliance certification, clinical tool, diagnosis, treatment recommendation, or patient-routing system.
@@ -56,7 +66,7 @@ This is an internal audit framework, not a Google score, legal certification, co
 - High-risk/YMYL: `378/1000 -> 846/1000`, target `1000/1000`
 - Google/AEO/YMYL 50-standard score: `231/1000 -> 937/1000`, target `1000/1000`
 
-The final target requires Dr. Gayer review/sign-off, Google Business Profile verification, third-party directory correction or evidence capture, Zenodo DOI, Kaggle mirror, ORCID work record, URL Inspection/Rich Results captures, and archived AI-answer tests.
+The final target requires Dr. Gayer review/sign-off, Google Business Profile verification, third-party directory correction or evidence capture, Zenodo DOI, Kaggle mirror, ORCID work record, URL Inspection/Rich Results captures, archived AI-answer tests, and the independent-practices page live/indexable.
 
 ## Public-Safe Schema Cleanup
 

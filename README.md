@@ -13,9 +13,29 @@ This repository is intentionally redacted. It omits exact NPI/license identifier
 
 ## Live Public Assets
 
+- GitHub repo and app source: https://github.com/RichNass87/positive-outcomes-doctor-ymyl-blueprint
 - Hugging Face Space: https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint
-- Direct Gradio score app: https://inspectorroofing-doctor-ymyl-blueprint.hf.space/
+- Direct Gradio app: https://inspectorroofing-doctor-ymyl-blueprint.hf.space/
 - Positive Outcomes owned website: https://positive-outcomes.com/
+
+Hugging Face deployment may lag this repository until the Space is synced from an authenticated Hugging Face session.
+
+## App Capability
+
+The Gradio app now includes a site-level YMYL readiness checker. Users can paste a URL, page HTML/text, or JSON-LD and receive a 0-1000 public-readiness audit across:
+
+- YMYL scope and intended-use boundaries
+- provider/person identity and credentials
+- practice/business identity, phone, address, hours, and appointment route
+- service scope and patient-safety boundaries
+- entity separation for colocated or renting professionals
+- helpful content, E-E-A-T, source, and freshness signals
+- Schema.org/JSON-LD presence and safety
+- canonical, robots, sitemap, and llms/entity-summary signals
+- privacy, data governance, and human oversight
+- publication governance, DOI/dataset readiness, and correction workflow
+
+The output is a remediation screen, not legal, medical, Google, regulatory, ranking, licensure, diagnosis, treatment, or patient-routing certification.
 
 ## Research Frame
 

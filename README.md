@@ -7,7 +7,7 @@ license: mit
 
 # Positive Outcomes Doctor YMYL Blueprint
 
-A public-safe YMYL/entity-clarity research repository for Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C.
+A public-safe YMYL trust-proof research repository for Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C.
 
 This repository is intentionally redacted. It omits exact NPI/license identifiers and internal evidence details until Dr. Gayer approves public wording.
 
@@ -22,12 +22,13 @@ Hugging Face deployment may lag this repository until the Space is synced from a
 
 ## App Capability
 
-The Gradio app now includes a site-level YMYL readiness checker. Users can paste a URL, page HTML/text, or JSON-LD and receive a 0-1000 public-readiness audit across:
+The Gradio app includes a site-level YMYL readiness checker. Users can paste a URL, page HTML/text, or JSON-LD and receive a 0-1000 public-readiness audit across:
 
 - YMYL scope and intended-use boundaries
 - provider/person identity and credentials
 - practice/business identity, phone, address, hours, and appointment route
 - service scope and patient-safety boundaries
+- trust proof: restrained claims, source evidence, uncertainty, and correction paths
 - entity separation for colocated or renting professionals
 - helpful content, E-E-A-T, source, and freshness signals
 - Schema.org/JSON-LD presence and safety
@@ -39,19 +40,19 @@ The output is a remediation screen, not legal, medical, Google, regulatory, rank
 
 ## Research Frame
 
-This project studies how search engines and AI answer systems interpret high-trust local medical and psychological-service entities. The case separates:
+This project studies how search engines and AI answer systems interpret high-trust local medical and psychological-service entities through the same public proof signals humans use when deciding whether information is trustworthy. The case separates:
 
 - **Harvey L. Gayer, Ph.D.** as the expert person entity.
 - **Positive Outcomes Psychological Services, P.C.** as the clinical psychology practice entity.
 - **Classic City Psychological Associates and other colocated/renting professionals** as separate entities that should not be represented as Positive Outcomes providers.
 
-The broader thesis: AI search increasingly behaves like a fast, imperfect human learner. It gathers cues, forms associations, and answers from its model. In YMYL contexts, the web has to teach that model carefully: clear identity, current contact facts, verified authority sources, and visible uncertainty where third-party listings conflict.
+The broader thesis is not “entity repair.” It is trust proof and cognitive alignment: Google/Search/AI systems do not think like people, but they increasingly reward or depend on signals that also help people trust responsibly: clear identity, current contact facts, verified authority sources, restrained claims, visible uncertainty, and correction paths where third-party listings conflict.
 
 ## Current Public Score Snapshot
 
 This is an internal audit framework, not a Google score, legal certification, compliance certification, clinical tool, diagnosis, treatment recommendation, or patient-routing system.
 
-- Entity/AEO: `420/1000 -> 877/1000`, target `1000/1000`
+- Trust-proof/AEO: `420/1000 -> 877/1000`, target `1000/1000`
 - High-risk/YMYL: `378/1000 -> 846/1000`, target `1000/1000`
 - Google/AEO/YMYL 50-standard score: `231/1000 -> 937/1000`, target `1000/1000`
 
@@ -59,7 +60,7 @@ The final target requires Dr. Gayer review/sign-off, Google Business Profile ver
 
 ## Public-Safe Schema Cleanup
 
-The public schema now includes Dataset `creator`, `publisher`, `license`, `usageInfo`, `dateModified`, and `inLanguage` fields to clean up Google's optional Dataset notices without inventing an open clinical-content license. Reuse/rights guidance points to the Positive Outcomes disclaimer until the office approves broader publication terms.
+The public schema includes Dataset `creator`, `publisher`, `license`, `usageInfo`, `dateModified`, and `inLanguage` fields to clean up Google's optional Dataset notices without inventing an open clinical-content license. Reuse/rights guidance points to the Positive Outcomes disclaimer until the office approves broader publication terms.
 
 ## Public Source Anchors
 

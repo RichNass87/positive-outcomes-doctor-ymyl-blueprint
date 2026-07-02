@@ -1,6 +1,15 @@
+---
+title: Positive Outcomes Doctor YMYL Blueprint
+sdk: gradio
+app_file: app.py
+license: mit
+---
+
 # Positive Outcomes Doctor YMYL Blueprint
 
-A public, redacted research repository for a Doctor YMYL entity-clarity case study involving Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C.
+A public-safe YMYL/entity-clarity research repository for Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C.
+
+This repository is intentionally redacted. It omits exact NPI/license identifiers and internal evidence details until Dr. Gayer approves public wording.
 
 ## Live Public Assets
 
@@ -20,17 +29,17 @@ The broader thesis: AI search increasingly behaves like a fast, imperfect human 
 
 ## Current Public Score Snapshot
 
-This is an internal audit framework, not a Google certification.
+This is an internal audit framework, not a Google score, legal certification, compliance certification, clinical tool, diagnosis, treatment recommendation, or patient-routing system.
 
-- Entity/AEO: `420/1000 -> 705/1000`, target `940/1000`
-- High-risk/YMYL: `378/1000 -> 732/1000`, target `945/1000`
-- Google/AEO/YMYL 50-standard score: `231/1000 -> 927/1000`, target `1000/1000`
+- Entity/AEO: `420/1000 -> 877/1000`, target `1000/1000`
+- High-risk/YMYL: `378/1000 -> 846/1000`, target `1000/1000`
+- Google/AEO/YMYL 50-standard score: `231/1000 -> 937/1000`, target `1000/1000`
 
-The final 1000 target requires live plugin verification, homepage theme-builder cleanup, Google Business Profile verification, third-party directory correction/documentation, Zenodo DOI, Hugging Face dataset, Kaggle mirror, and ORCID work record.
+The final target requires Dr. Gayer review/sign-off, Google Business Profile verification, third-party directory correction or evidence capture, Zenodo DOI, Kaggle mirror, ORCID work record, URL Inspection/Rich Results captures, and archived AI-answer tests.
 
-## URL Tracking
+## Public-Safe Schema Cleanup
 
-Use `dataset/url-tracking-public.csv` for public link tracking. Canonical URLs should be used for schema, citation, Google Business Profile, and directory correction work. UTM URLs are only for sharing/reporting and should not be used in `sameAs`, canonical tags, or Google Business Profile website fields.
+The public schema now includes Dataset `creator`, `publisher`, `license`, `usageInfo`, `dateModified`, and `inLanguage` fields to clean up Google's optional Dataset notices without inventing an open clinical-content license. Reuse/rights guidance points to the Positive Outcomes disclaimer until the office approves broader publication terms.
 
 ## Public Source Anchors
 
@@ -41,12 +50,13 @@ Use `dataset/url-tracking-public.csv` for public link tracking. Canonical URLs s
 - Schema.org PsychologicalTreatment: https://schema.org/PsychologicalTreatment
 - Google Search Central helpful content guidance: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
 - Google Search Central structured data guidance: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
-- Google Search Central canonicalization guidance: https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
-- NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework
+- Google Search Central LocalBusiness structured data guidance: https://developers.google.com/search/docs/appearance/structured-data/local-business
+- Google Search Central robots guidance: https://developers.google.com/search/docs/crawling-indexing/robots/intro
+- Google Search Central sitemap guidance: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
 
 ## Publication Safety Note
 
-The full local research bundle contains evidence-only working files. Public NPI/license display and final clinical wording should be approved by the office before full release. This public repository intentionally excludes the internal evidence package.
+The full local research bundle contains evidence-only working files. Public NPI/license display, final clinical wording, forensic/evaluation wording, telehealth wording, payment wording, and final manuscript release should be approved by Dr. Gayer or authorized office staff before full release. This public repository is designed to remain YMYL-safe and public-safe.
 
 ## Authors / Contributors
 

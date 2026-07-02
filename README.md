@@ -5,91 +5,166 @@ app_file: app.py
 license: mit
 ---
 
-# Positive Outcomes Doctor YMYL Blueprint
+# Positive Outcomes YMYL Entity Separation Study
 
-A public-safe YMYL trust-proof research repository for Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C.
+Local deliverable package for showing how YMYL trust proof works for Dr. Harvey L. Gayer and Positive Outcomes Psychological Services, P.C.: clear identity, restrained claims, source evidence, correction paths, and separation from Classic City Psychological Associates and other colocated providers.
 
-This repository is intentionally redacted. It omits exact NPI/license identifiers and internal evidence details until Dr. Gayer approves public wording.
+## What This Contains
 
-## Live Public Assets
+- `plugin/positive-outcomes-entity-separator/`: WordPress plugin draft.
+- `app/`: Static YMYL/AEO scoring app with 0-100 category scores and 0-1000 totals.
+- `schema/`: Public entity graph JSON-LD, review-only credential graph, capability model, and scoring rubrics.
+- `ai-files/`: Draft `robots.txt` and `llms.txt`.
+- `dataset/`: Hugging Face, Kaggle, Zenodo, ORCID, and publication link templates.
+- `dataset/url-tracking.*`: Canonical and tracked URLs for GitHub, Hugging Face, DOI, directory, and owned-site references.
+- `study/`: Whitepaper outline, academia notes, and site rewrite plan.
+- `study/academic-paper-draft.md`: Academic working paper for Richard Nasser and Harvey L. Gayer, Ph.D.
+- `study/kdp-manuscript-draft.md`: KDP-style manuscript draft for Dr. Gayer to edit.
+- `study/kdp-50-source-working-bibliography.md`: 50-source bibliography bank.
+- `study/independent-practices-page.md`: patient-facing clarification page for independent practices at the same address.
+- `documents/`: Editable DOCX versions of the academic paper and KDP manuscript.
+- `evidence/`: Source-grounded entity notes and conflict map.
+- `app.py`: Gradio Doctor YMYL Blueprint scorecard, high-risk publication gate, and site-level YMYL readiness checker.
+- `deploy/`: GitHub, Hugging Face, and Zenodo deployment notes.
+- `dataset/dr-gayer-google-source-registry.*`: Google-discoverable source registry including UGA, the owned site, NPI Registry, Healthgrades, WebMD monitoring, Maps/GBP, and schema anchors.
 
-- GitHub repo and app source: https://github.com/RichNass87/positive-outcomes-doctor-ymyl-blueprint
-- Hugging Face Space: https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint
-- Direct Gradio app: https://inspectorroofing-doctor-ymyl-blueprint.hf.space/
-- Positive Outcomes owned website: https://positive-outcomes.com/
-- Independent-practices clarification target: https://positive-outcomes.com/independent-practices-at-this-address/
-- Harvey owned-site image signal: https://positive-outcomes.com/wp-content/uploads/2014/09/gayer.jpg
+## Source Of Truth
 
-Hugging Face deployment may lag this repository until the Space is synced from an authenticated Hugging Face session.
+The governing business instruction is Dr. Harvey Gayer's June 30, 2026 email:
 
-## App Capability
+- Positive Outcomes Psychological Services, P.C. is Dr. Harvey Gayer's solo practice.
+- Dr. Gayer is the provider to show for Positive Outcomes.
+- Classic City Psychological Associates is separate and rents office space.
+- Other providers are not associated with Positive Outcomes.
+- The final Positive Outcomes suite should be Suite 199.
+- Appointment route should use `706-543-3538` and `PositiveOutcomesOffice@gmail.com`.
 
-The Gradio app includes a site-level YMYL readiness checker. Users can paste a URL, page HTML/text, or JSON-LD and receive a 0-1000 public-readiness audit across:
+## Key Research Findings
 
-- YMYL scope and intended-use boundaries
-- provider/person identity, image signal, and credentials
-- practice/business identity, phone, address, hours, and appointment route
-- service scope and patient-safety boundaries
-- trust proof: restrained claims, source evidence, uncertainty, and correction paths
-- entity separation for colocated or renting professionals
-- helpful content, E-E-A-T, source, and freshness signals
-- Schema.org/JSON-LD presence and safety
-- canonical, robots, sitemap, and llms/entity-summary signals
-- privacy, data governance, and human oversight
-- publication governance, DOI/dataset readiness, and correction workflow
+- Eight core Positive Outcomes pages were rewritten live to identify Dr. Gayer and Positive Outcomes clearly. The later plugin pass also neutralizes legacy homepage theme-builder residue on the public output.
+- UGA verifies Harvey Louis Gayer as Part-time Clinical Assistant Professor, Clinical Program, and describes him as a licensed psychologist and Director of Positive Outcomes Psychological Services, P.C.
+- Healthgrades currently blends multiple providers and Suite 201 into the Positive Outcomes group listing, which is a third-party entity-conflict source.
+- The office-supplied Google Maps embed identifies Positive Outcomes Psychological Services as the mapped place; the live Google Business Profile details still need office review against Suite 199, `706-543-3538`, and the owned website.
+- Dr. Gayer is modeled as a professional person entity through the owned About page, UGA profile, Positive Outcomes practice relationship, source registry, and future approved ORCID/DOI/research metadata. Nonclinical identities are not needed on the public clinical site.
+- Official NPI Registry evidence is retained as review-gated credential support. Exact NPI/license identifiers are withheld from the public package until Dr. Gayer approves public wording.
+- Harvey's primary owned-site image is `https://positive-outcomes.com/wp-content/uploads/2014/09/gayer.jpg`; schema now uses it as the primary `image`/`primaryImageOfPage` signal.
+- The plugin creates `/independent-practices-at-this-address/` to identify Classic City Psychological Associates and other independent providers as separate from Positive Outcomes without attaching them to Dr. Gayer or the Positive Outcomes practice.
 
-The output is a remediation screen, not legal, medical, Google, regulatory, ranking, licensure, diagnosis, treatment, or patient-routing certification.
+## Scoring System
 
-## Research Frame
+The score system has two 0-1000 tracks:
 
-This project studies how search engines and AI answer systems interpret high-trust local medical and psychological-service entities through the same public proof signals humans use when deciding whether information is trustworthy. The case separates:
+- Trust-proof/AEO score: 10 categories, each 0-100.
+- High-risk/YMYL publication gate: 10 categories, each 0-100.
 
-- **Harvey L. Gayer, Ph.D.** as the expert person entity.
-- **Positive Outcomes Psychological Services, P.C.** as the clinical psychology practice entity.
-- **Classic City Psychological Associates and other colocated/renting professionals** as separate entities that should not be represented as Positive Outcomes providers.
+Baseline and target scores are included as working estimates, not certification:
 
-The broader thesis is not “entity repair.” It is trust proof and cognitive alignment: Google/Search/AI systems do not think like people, but they increasingly reward or depend on signals that also help people trust responsibly: clear identity, current contact facts, verified authority sources, restrained claims, visible uncertainty, and correction paths where third-party listings conflict.
+- Entity baseline: 420/1000
+- Entity after live rewrite/plugin/schema/app package: 877/1000
+- Entity target after directory/publication/review completion: 1000/1000
+- High-risk baseline: 378/1000
+- High-risk after live rewrite/plugin/schema/app package: 846/1000
+- High-risk target before final publication: 1000/1000
+- Combined working score: 399/1000 before, 862/1000 after live rewrite/plugin/schema/app package, 1000/1000 target.
+- Google/AEO/YMYL 50-standard score: 231/1000 before, 953/1000 after package implementation, 1000/1000 final target.
+- Gemini-derived AEO gap benchmark from user-supplied screenshots: 685/1000 before the v0.3.7 polish pass, 952/1000 after central schema/Q&A/source-proof improvements, 1000/1000 final target after directories, Dr. Gayer approval, DOI/ORCID/Kaggle, and evidence captures.
 
-## Independent-Practices Page
+Final "after" scoring should be rerun after directory corrections, Dr. Gayer approval of public credential language, screenshots/URL Inspection captures, and publication of the DOI/Kaggle/ORCID study assets.
 
-The WordPress plugin creates or manages `/independent-practices-at-this-address/`. The page is meant to be indexable and patient-facing so Google, LLMs, directories, patients, and referral sources can understand that independent building occupants are not Positive Outcomes providers.
+## Gradio App
 
-Names included only for disambiguation, not as Positive Outcomes providers: Classic City Psychological Associates, Dr. Eli Solomon, Dr. Mary Elizabeth Trent, Dr. Jaclyn Evans, Michael Pascale, Dr. Kate Avinger, Dr. Heather Lundy, and Dr. Bailey Irvine.
+Install and run locally:
 
-Positive Outcomes does not schedule for, supervise, verify availability for, or represent independent practices/professionals at the same address. Each independent practice should be contacted through its own public materials.
+```bash
+python -m venv .venv
+. .venv/bin/activate
+pip install -r requirements.txt
+python scripts/validate_blueprint.py
+python app.py
+```
 
-## Current Public Score Snapshot
+The app is a pre-publication audit tool. It now includes a site-level YMYL readiness checker that accepts a URL, pasted page HTML/text, or pasted JSON-LD and returns a 0-1000 remediation score. It does not diagnose, treat, make patient decisions, provide legal advice, or certify compliance.
 
-This is an internal audit framework, not a Google score, legal certification, compliance certification, clinical tool, diagnosis, treatment recommendation, or patient-routing system.
+On this workstation, the tested local app is running at `http://127.0.0.1:8060`.
 
-- Trust-proof/AEO: `420/1000 -> 877/1000`, target `1000/1000`
-- High-risk/YMYL: `378/1000 -> 846/1000`, target `1000/1000`
-- Google/AEO/YMYL 50-standard score: `231/1000 -> 937/1000`, target `1000/1000`
+## Publication Gate
 
-The final target requires Dr. Gayer review/sign-off, Google Business Profile verification, third-party directory correction or evidence capture, Zenodo DOI, Kaggle mirror, ORCID work record, URL Inspection/Rich Results captures, archived AI-answer tests, and the independent-practices page live/indexable.
+Do not publish as final until:
 
-## Public-Safe Schema Cleanup
+- The WordPress plugin/schema is live. Public-safe package source is at plugin version `0.2.6`.
+- `/llms.txt` and `/entity-graph.jsonld` are reachable.
+- `/independent-practices-at-this-address/` is reachable and indexable.
+- Homepage theme-builder residue is corrected or neutralized in public output.
+- Google Search Console domain ownership is verified through the DNS provider.
+- Google Business Profile and Maps details are office-reviewed.
+- Healthgrades and major directories are corrected or logged.
+- NPI/license publication decision is office-approved.
+- Public-safe GitHub is live; Hugging Face update is staged until the account is authenticated for upload.
+- Zenodo DOI, Kaggle, and ORCID links are created.
 
-The public schema includes Dataset `creator`, `publisher`, `license`, `usageInfo`, `dateModified`, and `inLanguage` fields to clean up Google's optional Dataset notices without inventing an open clinical-content license. Reuse/rights guidance points to the Positive Outcomes disclaimer until the office approves broader publication terms.
+## Research And KDP Assets
 
-## Public Source Anchors
+The package includes two editorial deliverables:
 
-- Positive Outcomes owned website: https://positive-outcomes.com/
-- UGA profile for Harvey L. Gayer: https://psychology.uga.edu/directory/people/harvey-louis-gayer
-- Schema.org MedicalBusiness: https://schema.org/MedicalBusiness
-- Schema.org MedicalClinic: https://schema.org/MedicalClinic
-- Schema.org PsychologicalTreatment: https://schema.org/PsychologicalTreatment
-- Google Search Central helpful content guidance: https://developers.google.com/search/docs/fundamentals/creating-helpful-content
-- Google Search Central structured data guidance: https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
-- Google Search Central LocalBusiness structured data guidance: https://developers.google.com/search/docs/appearance/structured-data/local-business
-- Google Search Central robots guidance: https://developers.google.com/search/docs/crawling-indexing/robots/intro
-- Google Search Central sitemap guidance: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+- Academic paper draft: `documents/trust-proof-cognitive-alignment-academic-paper.docx`
+- KDP manuscript draft: `documents/when-search-learns-like-people-kdp-manuscript.docx`
 
-## Publication Safety Note
+Dr. Gayer is treated as a Ph.D. licensed psychologist and senior clinical/forensic authority. The manuscript does not describe him as Psy.D. because the verified credential supplied for the case is Ph.D.
 
-The full local research bundle contains evidence-only working files. Public NPI/license display, final clinical wording, forensic/evaluation wording, telehealth wording, payment wording, and final manuscript release should be approved by Dr. Gayer or authorized office staff before full release. This public repository is designed to remain YMYL-safe and public-safe.
+## Medical Schema Strategy
 
-## Authors / Contributors
+The schema strategy intentionally separates authority and conflict:
 
-- Richard Nasser
-- Harvey L. Gayer, Ph.D. (office/clinical review pending for final manuscript release)
+- The owned Positive Outcomes website is the canonical medical-practice example.
+- UGA is an independent authority source for Dr. Gayer's academic/professional role.
+- Healthgrades is included as conflict evidence until corrected.
+- WebMD is tracked as a monitored directory source; no verified Dr. Gayer WebMD URL is added as `sameAs` unless found and reviewed.
+- Medical schema uses `MedicalClinic`, `MedicalBusiness`, `LocalBusiness`, `PsychologicalTreatment`, `MedicalTest`, `Service`, `Person`, and `CreativeWork` patterns, constrained to visible and approved claims.
+
+## Credential Review Graph
+
+The package now includes `schema/harvey-gayer-credential-review-graph.jsonld`. It records Dr. Gayer's review-gated NPI/license evidence, UGA-sourced education/experience facts, and the stale NPI contact-field warning. Exact NPI/license values are intentionally not copied into the public WordPress schema unless Dr. Gayer approves final public wording.
+
+## WordPress Plugin
+
+The local package source has been advanced to `0.3.7` with the expanded credential-safe schema model, AI Summary blocks, footer map/contact proof, Dataset Rich Results cleanup, removal of stale service-availability wording from visible body copy and SEO metadata, a more human-facing About page source section, and a Gemini-derived 685-to-952 AEO gap benchmark. It does these things:
+
+1. Outputs a grounded JSON-LD graph for Dr. Gayer and Positive Outcomes.
+2. Keeps Dr. Gayer's professional person entity separate from, but connected to, the clinical practice entity.
+3. Adds public `llms.txt` and `entity-graph.jsonld` endpoints.
+4. Adds noindex protection for hard conflict pages while allowing official "not Classic City" clarification pages to stay indexable.
+5. Adds Google Search Console URL-prefix verification meta and supports DNS-domain verification documentation.
+6. Keeps `robots.txt` focused on the real XML sitemap while linking the entity graph as a comment.
+7. Models Dr. Gayer's public-safe credentials, UGA affiliation, and person/practice/entity separation without exposing review-gated identifier numbers.
+8. Adds Dataset `creator`, `publisher`, `license`, `usageInfo`, `dateModified`, and `inLanguage` fields to clear Google optional structured-data notices without inventing an open clinical-content license.
+9. Adds a plain-language trust-proof block, more conversational FAQ answers, and source-priority language so public readers and AI systems see the same restrained proof structure.
+
+Install path:
+
+`wp-content/plugins/positive-outcomes-entity-separator/positive-outcomes-entity-separator.php`
+
+The live plugin does not publish NPI/license values by default. Publish those only after office approval of the exact public language.
+
+## Publication Links
+
+`dataset/publication-links.json` contains placeholders for:
+
+- GitHub repository
+- Hugging Face dataset
+- Zenodo DOI
+- Kaggle dataset
+- ORCID work record
+
+Those should be filled after the public artifacts exist.
+
+Current public-safe GitHub repository:
+
+`https://github.com/RichNass87/positive-outcomes-doctor-ymyl-blueprint`
+
+Current Hugging Face Space:
+
+`https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint`
+
+Current live Gradio score app:
+
+`https://inspectorroofing-doctor-ymyl-blueprint.hf.space/`

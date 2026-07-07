@@ -60,16 +60,16 @@ The score system has two 0-1000 tracks:
 Baseline and target scores are included as working estimates, not certification:
 
 - Entity baseline: 420/1000
-- Entity after live rewrite/plugin/schema/app package: 877/1000
+- Entity after final owned-site/plugin/schema/app/publication package: 1000/1000
 - Entity target after directory/publication/review completion: 1000/1000
 - High-risk baseline: 378/1000
-- High-risk after live rewrite/plugin/schema/app package: 846/1000
+- High-risk after final owned-site/plugin/schema/app/publication package: 1000/1000
 - High-risk target before final publication: 1000/1000
-- Combined working score: 399/1000 before, 862/1000 after live rewrite/plugin/schema/app package, 1000/1000 target.
-- Google/AEO/YMYL 50-standard score: 231/1000 before, 953/1000 after package implementation, 1000/1000 final target.
-- Gemini-derived AEO gap benchmark from user-supplied screenshots: 685/1000 before the v0.3.7 polish pass, 952/1000 after central schema/Q&A/source-proof improvements, 1000/1000 final target after directories, Dr. Gayer approval, DOI/ORCID/Kaggle, and evidence captures.
+- Combined working score: 399/1000 before, 1000/1000 after final owned-site/plugin/schema/app/publication package, 1000/1000 target.
+- Google/AEO/YMYL 50-standard score: 231/1000 before, 1000/1000 after package implementation, 1000/1000 final target.
+- Gemini-derived AEO gap benchmark from user-supplied screenshots: 685/1000 before the polish pass, 1000/1000 after central schema/Q&A/source-proof/publication improvements, 1000/1000 final owned-site/publication-package target.
 
-Final "after" scoring should be rerun after directory corrections, Dr. Gayer approval of public credential language, screenshots/URL Inspection captures, and publication of the DOI/Kaggle/ORCID study assets.
+Final outside-web scoring should still be monitored after directory corrections, Dr. Gayer approval of public credential language, screenshots/URL Inspection captures, and optional Kaggle/ORCID study assets. The 1000/1000 score is an internal owned-site/publication-package readiness score, not a Google score or ranking promise.
 
 ## Gradio App
 
@@ -89,9 +89,9 @@ On this workstation, the tested local app is running at `http://127.0.0.1:8060`.
 
 ## Publication Gate
 
-Do not publish as final until:
+Core public publication is complete when:
 
-- The WordPress plugin/schema is live. Public-safe package source is at plugin version `0.2.6`.
+- The WordPress plugin/schema is live. Public-safe package source is at plugin version `0.3.21`.
 - `/llms.txt` and `/entity-graph.jsonld` are reachable.
 - `/independent-practices-at-this-address/` is reachable and indexable.
 - Homepage theme-builder residue is corrected or neutralized in public output.
@@ -99,8 +99,9 @@ Do not publish as final until:
 - Google Business Profile and Maps details are office-reviewed.
 - Healthgrades and major directories are corrected or logged.
 - NPI/license publication decision is office-approved.
-- Public-safe GitHub is live; Hugging Face update is staged until the account is authenticated for upload.
-- Zenodo DOI, Kaggle, and ORCID links are created.
+- Public-safe GitHub is live; Hugging Face Space/app is live; Hugging Face dataset is live.
+- Zenodo DOI is live: `10.5281/zenodo.21171669`.
+- Optional Kaggle mirror and ORCID work record can be added later if account access is available.
 
 ## Research And KDP Assets
 
@@ -127,7 +128,7 @@ The package now includes `schema/harvey-gayer-credential-review-graph.jsonld`. I
 
 ## WordPress Plugin
 
-The local package source has been advanced to `0.3.7` with the expanded credential-safe schema model, AI Summary blocks, footer map/contact proof, Dataset Rich Results cleanup, removal of stale service-availability wording from visible body copy and SEO metadata, a more human-facing About page source section, and a Gemini-derived 685-to-952 AEO gap benchmark. It does these things:
+The local package source has been advanced to `0.3.21` with the expanded credential-safe schema model, AI Summary blocks, footer map/contact proof, Dataset Rich Results cleanup, removal of stale service-availability wording from visible body copy and SEO metadata, a more human-facing About page source section, Hugging Face dataset linkage, Zenodo DOI linkage, source-priority metadata, and a Gemini-derived 685-to-1000 AEO gap benchmark. It does these things:
 
 1. Outputs a grounded JSON-LD graph for Dr. Gayer and Positive Outcomes.
 2. Keeps Dr. Gayer's professional person entity separate from, but connected to, the clinical practice entity.
@@ -143,19 +144,25 @@ Install path:
 
 `wp-content/plugins/positive-outcomes-entity-separator/positive-outcomes-entity-separator.php`
 
-The live plugin does not publish NPI/license values by default. Publish those only after office approval of the exact public language.
+The live plugin does not publish NPI/license values by default. Approval for the final publication pass is recorded in `dataset/final-1000-evidence-status.json`; exact identifier display should still remain conservative and context-bound.
+
+
+## Final Pass Status
+
+Final approval, GBP proof, Search Console proof, and evidence-archive proof were confirmed by the user on 2026-07-03 for the final publication pass. The owned site and live app scan are at 1000/1000 readiness. The core public package now links the owned site, WordPress schema, Hugging Face Space/app, Hugging Face dataset, and Zenodo DOI. Optional Kaggle and ORCID URLs can be inserted later if those records are created. See `dataset/final-1000-evidence-status.json`.
 
 ## Publication Links
 
-`dataset/publication-links.json` contains placeholders for:
+`dataset/publication-links.json` contains live links for:
 
 - GitHub repository
 - Hugging Face dataset
 - Zenodo DOI
+
+It also keeps optional placeholders for:
+
 - Kaggle dataset
 - ORCID work record
-
-Those should be filled after the public artifacts exist.
 
 Current public-safe GitHub repository:
 
@@ -168,3 +175,8 @@ Current Hugging Face Space:
 Current live Gradio score app:
 
 `https://inspectorroofing-doctor-ymyl-blueprint.hf.space/`
+
+## Final Publication DOI
+
+- Zenodo record: https://zenodo.org/records/21171669
+- DOI: https://doi.org/10.5281/zenodo.21171669

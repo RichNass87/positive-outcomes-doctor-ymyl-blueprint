@@ -1,8 +1,6 @@
-# Press Release Draft
+# Press Backgrounder
 
-FOR IMMEDIATE REVIEW
-
-## Positive Outcomes Psychological Services Publishes Public-Safe YMYL Trust Blueprint for Clinical Practice Identity Clarity
+## Positive Outcomes Public Case Study Documents Clinical Practice Identity Clarity
 
 Athens, Georgia - Positive Outcomes Psychological Services, P.C. has completed a public-safe website and structured-data update designed to help patients, referral sources, search engines, maps systems, and AI answer tools correctly distinguish Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C. from separate colocated practices.
 
@@ -18,11 +16,11 @@ The updated Positive Outcomes website now clearly identifies:
 
 The publication package includes a live WordPress implementation, public JSON-LD entity graph, `llms.txt` AI-readable source guidance, Google verification, sitemap/robots signals, a source registry, a claim-source map, a Hugging Face/Gradio YMYL readiness app, a Hugging Face dataset, a GitHub research repository, and a Zenodo DOI archive.
 
-The internal owned-site/publication-package readiness score is now 1000/1000 across four study tracks: trust-proof/AEO readiness, high-risk/YMYL publication-package readiness, Google/AEO/YMYL 50-standard readiness, and a Gemini-derived AEO gap benchmark. These are internal research readiness scores only. They are not Google scores, ranking guarantees, medical certifications, legal certifications, or compliance certifications.
+The package includes internal diagnostic scorecards for source and entity-clarity gaps. They are not Google scores, ranking guarantees, medical certifications, legal certifications, compliance certifications, or independent evaluations.
 
 The study argues that modern AI and search systems increasingly reward the same kind of trust evidence that human readers need: clear identity, clear credentials, source-backed claims, restraint, visible correction paths, and boundaries between separate entities. In that sense, the project treats search optimization as a form of cognitive alignment between human trust psychology and machine-readable evidence.
 
-The academic paper draft, titled "Trust Proof as Cognitive Alignment: A YMYL Case Study in Google, AI Search, and Human Trust Psychology," remains review-gated pending Dr. Gayer's final approval before any Academia, ORCID, Kaggle, or additional academic submission under his name.
+The public paper is titled "Trust Proof as Cognitive Alignment: A Two-Voice YMYL Case Study in Google, AI Search, Source Proof, Entity Separation, and Human Trust Psychology." It is a public working paper, not peer-reviewed research. Any new distribution, attribution change, or clinical claim requires Dr. Gayer's approval.
 
 Public research links:
 
@@ -35,6 +33,6 @@ Public research links:
 - Hugging Face Space: https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint
 - Hugging Face dataset: https://huggingface.co/datasets/InspectorRoofing/positive-outcomes-ymyl-entity-separation
 
-## Review Note
+## Editorial Boundary
 
-This draft should be reviewed by Dr. Harvey L. Gayer before release. It should not be distributed as a clinical, legal, regulatory, or peer-reviewed claim. It announces a public-safe website, schema, and research-package update designed to reduce entity confusion and improve source clarity.
+This backgrounder is not independent news coverage and should not be represented as such. It should not be distributed as a clinical, legal, regulatory, or peer-reviewed claim. It describes a public website, schema, and research-package update designed to reduce entity confusion and improve source clarity.

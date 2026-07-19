@@ -14,14 +14,23 @@ tags:
   - medical-schema
   - answer-engine-optimization
   - high-risk-ai
-pretty_name: Positive Outcomes YMYL Trust-Proof Study
+pretty_name: Positive Outcomes Entity-Clarity Case Study
 size_categories:
   - n<1K
 ---
 
-# Positive Outcomes YMYL Trust-Proof Study
+# Positive Outcomes Entity-Clarity Case Study
 
-This dataset documents a before-and-after trust-proof workflow for a local clinical psychology practice where public search and directory signals blended a solo practitioner practice with colocated but separate providers.
+This dataset documents a public entity-clarity workflow for a local clinical psychology practice where public search and directory signals blended a solo practitioner practice with colocated but separate providers.
+
+**Public record:** [Zenodo DOI 10.5281/zenodo.21171669](https://doi.org/10.5281/zenodo.21171669)
+
+**Public record creators:** Richard Amir Nasser; Harvey L. Gayer, Ph.D.
+
+**Repository:** https://github.com/RichNass87/positive-outcomes-doctor-ymyl-blueprint
+
+**Research app:** https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint
+**Paper distribution:** https://www.academia.edu/169828502/Trust_Proof_as_Cognitive_Alignment_A_Two_Voice_YMYL_Case_Study_in_Google_AI_Search_Source_Proof_Entity_Separation_and_Human_Trust_Psychology
 
 The owned website for Positive Outcomes Psychological Services, P.C. is cited as the canonical medical-practice example for the study after live rewrite and office review. Third-party directories are included as evidence sources or conflict sources, not automatically treated as authority.
 
@@ -32,7 +41,6 @@ Entities:
 - Harvey L. Gayer, Ph.D.
 - Positive Outcomes Psychological Services, P.C.
 - Classic City Psychological Associates as a separate colocated entity
-- Separate athletics/coaching identity for Harvey Gayer
 
 Trust-proof signals:
 
@@ -59,27 +67,9 @@ Trust-proof signals:
 - Reidentification of private patient or office records
 - Legal, medical, Google, regulatory, ranking, or licensure certification
 
-## Scoring
+## Scoring Boundary
 
-Scores use 10 dimensions from 0-100 each, with total score from 0-1000.
-
-Trust-proof/AEO baseline estimate: 420/1000.
-
-Trust-proof/AEO after live rewrite/plugin/schema/app package: 877/1000.
-
-Trust-proof/AEO target after final evidence and review: 1000/1000.
-
-High-risk/YMYL baseline estimate: 378/1000.
-
-High-risk/YMYL after live rewrite/plugin/schema/app package: 846/1000.
-
-High-risk/YMYL target before final publication: 1000/1000.
-
-Google/AEO/YMYL 50-standard baseline estimate: 231/1000.
-
-Google/AEO/YMYL 50-standard after package implementation: 937/1000.
-
-Google/AEO/YMYL 50-standard final target: 1000/1000.
+The included scorecard is an internal gap-analysis tool. It does not certify medical quality, clinical appropriateness, licensure, legal compliance, Google ranking, answer-engine ranking, or the study's independent notability.
 
 ## Schema
 
@@ -89,4 +79,4 @@ The study also models Classic City Psychological Associates as a separate coloca
 
 ## Citation
 
-Add Zenodo DOI after publication.
+Use the DOI record above. Cite the archive as a public working-paper and dataset package, not as peer-reviewed research.

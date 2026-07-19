@@ -7,4 +7,4 @@ URL005,owned_site,Location,https://positive-outcomes.com/about-us/location-direc
 URL006,public_repo,GitHub study repo,https://github.com/RichNass87/positive-outcomes-doctor-ymyl-blueprint,live_public_safe,Redacted public-safe repo starter.
 URL007,hugging_face,Hugging Face Space,https://huggingface.co/spaces/InspectorRoofing/doctor-ymyl-blueprint,live_public_safe,Created under the logged-in InspectorRoofing account.
 URL008,hugging_face,Direct Gradio app,https://inspectorroofing-doctor-ymyl-blueprint.hf.space/,live_public_safe,Direct app endpoint for score and URL tracking.
-URL009,hugging_face,Hugging Face dataset,TBD,pending_auth,Create after HF account/auth is confirmed.
+URL009,hugging_face,Hugging Face dataset,https://huggingface.co/datasets/InspectorRoofing/positive-outcomes-ymyl-entity-separation,live_public_safe,Public dataset with 291 rows; update the dataset card to identify the DOI and source boundary.

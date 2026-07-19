@@ -1,13 +1,13 @@
 ---
-title: Positive Outcomes Doctor YMYL Blueprint
+title: Positive Outcomes Entity-Clarity Case Study
 sdk: gradio
 app_file: app.py
 license: mit
 ---
 
-# Positive Outcomes YMYL Entity Separation Study
+# Positive Outcomes Entity-Clarity Case Study
 
-Local deliverable package for showing how YMYL trust proof works for Dr. Harvey L. Gayer and Positive Outcomes Psychological Services, P.C.: clear identity, restrained claims, source evidence, correction paths, and separation from Classic City Psychological Associates and other colocated providers.
+Public research package for a YMYL entity-clarity case study involving Harvey L. Gayer, Ph.D. and Positive Outcomes Psychological Services, P.C. It documents source evidence, correction paths, restrained claims, and separation from Classic City Psychological Associates and other colocated providers.
 
 ## What This Contains
 
@@ -18,7 +18,7 @@ Local deliverable package for showing how YMYL trust proof works for Dr. Harvey 
 - `dataset/`: Hugging Face, Kaggle, Zenodo, ORCID, and publication link templates.
 - `dataset/url-tracking.*`: Canonical and tracked URLs for GitHub, Hugging Face, DOI, directory, and owned-site references.
 - `study/`: Whitepaper outline, academia notes, and site rewrite plan.
-- `study/academic-paper-draft.md`: Academic working paper for Richard Nasser and Harvey L. Gayer, Ph.D.
+- `study/academic-paper-draft.md`: Academic working paper for Richard Amir Nasser and Harvey L. Gayer, Ph.D.
 - `study/kdp-manuscript-draft.md`: KDP-style manuscript draft for Dr. Gayer to edit.
 - `study/kdp-50-source-working-bibliography.md`: 50-source bibliography bank.
 - `study/independent-practices-page.md`: patient-facing clarification page for independent practices at the same address.
@@ -28,16 +28,16 @@ Local deliverable package for showing how YMYL trust proof works for Dr. Harvey 
 - `deploy/`: GitHub, Hugging Face, and Zenodo deployment notes.
 - `dataset/dr-gayer-google-source-registry.*`: Google-discoverable source registry including UGA, the owned site, NPI Registry, Healthgrades, WebMD monitoring, Maps/GBP, and schema anchors.
 
-## Source Of Truth
+## Public Source Policy
 
-The governing business instruction is Dr. Harvey Gayer's June 30, 2026 email:
+The public record is governed by sources that readers can independently inspect:
 
-- Positive Outcomes Psychological Services, P.C. is Dr. Harvey Gayer's solo practice.
-- Dr. Gayer is the provider to show for Positive Outcomes.
-- Classic City Psychological Associates is separate and rents office space.
-- Other providers are not associated with Positive Outcomes.
-- The final Positive Outcomes suite should be Suite 199.
-- Appointment route should use `706-543-3538` and `PositiveOutcomesOffice@gmail.com`.
+- The Positive Outcomes website is the canonical source for current practice facts.
+- The UGA Department of Psychology is an independent institutional source for Dr. Gayer's public academic and professional role.
+- Healthgrades and other directories are monitored as possible conflict sources, not automatically treated as authoritative.
+- The Zenodo record, Academia paper, GitHub repository, and Hugging Face assets are a connected creator-controlled provenance family. They establish public availability and version history, not independent validation, peer review, medical efficacy, or platform endorsement.
+
+Internal correspondence, unreleased credential identifiers, patient information, and private office records are intentionally excluded from this public repository.
 
 ## Key Research Findings
 
@@ -50,26 +50,9 @@ The governing business instruction is Dr. Harvey Gayer's June 30, 2026 email:
 - Harvey's primary owned-site image is `https://positive-outcomes.com/wp-content/uploads/2014/09/gayer.jpg`; schema now uses it as the primary `image`/`primaryImageOfPage` signal.
 - The plugin creates `/independent-practices-at-this-address/` to identify Classic City Psychological Associates and other independent providers as separate from Positive Outcomes without attaching them to Dr. Gayer or the Positive Outcomes practice.
 
-## Scoring System
+## Scoring Boundary
 
-The score system has two 0-1000 tracks:
-
-- Trust-proof/AEO score: 10 categories, each 0-100.
-- High-risk/YMYL publication gate: 10 categories, each 0-100.
-
-Baseline and target scores are included as working estimates, not certification:
-
-- Entity baseline: 420/1000
-- Entity after final owned-site/plugin/schema/app/publication package: 1000/1000
-- Entity target after directory/publication/review completion: 1000/1000
-- High-risk baseline: 378/1000
-- High-risk after final owned-site/plugin/schema/app/publication package: 1000/1000
-- High-risk target before final publication: 1000/1000
-- Combined working score: 399/1000 before, 1000/1000 after final owned-site/plugin/schema/app/publication package, 1000/1000 target.
-- Google/AEO/YMYL 50-standard score: 231/1000 before, 1000/1000 after package implementation, 1000/1000 final target.
-- Gemini-derived AEO gap benchmark from user-supplied screenshots: 685/1000 before the polish pass, 1000/1000 after central schema/Q&A/source-proof/publication improvements, 1000/1000 final owned-site/publication-package target.
-
-Final outside-web scoring should still be monitored after directory corrections, Dr. Gayer approval of public credential language, screenshots/URL Inspection captures, and optional Kaggle/ORCID study assets. The 1000/1000 score is an internal owned-site/publication-package readiness score, not a Google score or ranking promise.
+The included scorecards are internal diagnostic tools. They identify potential source, schema, and entity-clarity gaps; they do not measure clinical quality, legal compliance, credential validity, Google ranking, AI ranking, insurance outcomes, or Wikidata notability. No composite score in this repository should be represented as a certification or independent evaluation.
 
 ## Gradio App
 
@@ -99,7 +82,7 @@ Core public publication is complete when:
 - Google Business Profile and Maps details are office-reviewed.
 - Healthgrades and major directories are corrected or logged.
 - NPI/license publication decision is office-approved.
-- Public-safe GitHub is live; Hugging Face Space/app is live; Hugging Face dataset is live.
+- Public GitHub repository, Hugging Face Space/app, Hugging Face dataset, Academia paper, and Zenodo record are live.
 - Zenodo DOI is live: `10.5281/zenodo.21171669`.
 - Optional Kaggle mirror and ORCID work record can be added later if account access is available.
 
@@ -147,9 +130,9 @@ Install path:
 The live plugin does not publish NPI/license values by default. Approval for the final publication pass is recorded in `dataset/final-1000-evidence-status.json`; exact identifier display should still remain conservative and context-bound.
 
 
-## Final Pass Status
+## Current Public Record
 
-Final approval, GBP proof, Search Console proof, and evidence-archive proof were confirmed by the user on 2026-07-03 for the final publication pass. The owned site and live app scan are at 1000/1000 readiness. The core public package now links the owned site, WordPress schema, Hugging Face Space/app, Hugging Face dataset, and Zenodo DOI. Optional Kaggle and ORCID URLs can be inserted later if those records are created. See `dataset/final-1000-evidence-status.json`.
+The public package links the owned site, public schema, Hugging Face Space/app, Hugging Face dataset, Academia paper, GitHub repository, and Zenodo DOI. Each link should be rechecked before it is cited. Public availability does not make the study peer reviewed or independently validated.
 
 ## Publication Links
 
@@ -159,10 +142,7 @@ Final approval, GBP proof, Search Console proof, and evidence-archive proof were
 - Hugging Face dataset
 - Zenodo DOI
 
-It also keeps optional placeholders for:
-
-- Kaggle dataset
-- ORCID work record
+It also records any future Kaggle or ORCID links only after those public records are independently verifiable.
 
 Current public-safe GitHub repository:
 

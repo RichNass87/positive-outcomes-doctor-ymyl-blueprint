@@ -1,9 +1,9 @@
-# Entity Repair as Cognitive Alignment
+# Trust Proof as Cognitive Alignment
 
-## A YMYL Case Study in GEO, SEO, AI Search, and Human Learning Psychology
+## A Two-Voice YMYL Case Study in Google, AI Search, Source Proof, Entity Separation, and Human Trust Psychology
 
-Authors/contributors: Richard Nasser; Harvey L. Gayer, Ph.D.  
-DOI: pending Zenodo release.
+Public record creators: Richard Amir Nasser; Harvey L. Gayer, Ph.D.
+DOI: [10.5281/zenodo.21171669](https://doi.org/10.5281/zenodo.21171669)
 
 ## Abstract
 
@@ -11,7 +11,7 @@ Search engines and answer engines increasingly behave less like static indexes a
 
 This working paper presents Positive Outcomes Psychological Services, P.C. and Harvey L. Gayer, Ph.D. as a case study in YMYL entity repair. The study frames GEO, SEO, AEO, schema, and directory remediation as a form of cognitive alignment: public web signals are reorganized so that machine interpretation more closely matches how a careful human would reason about the office. The intervention separates Dr. Gayer as the expert person entity, Positive Outcomes Psychological Services, P.C. as the clinical psychology practice entity, and Classic City Psychological Associates/other colocated professionals as separate entities.
 
-The public release package will include source-grounded schema, canonical controls, llms.txt guidance, a 50-standard Google/AEO/YMYL scorecard, and linked GitHub, Hugging Face, Zenodo, Kaggle, and ORCID records after final review.
+The public package links source-grounded schema, canonical controls, `llms.txt` guidance, GitHub, Hugging Face, Academia, and the Zenodo DOI. These records establish a public version trail and do not constitute peer review, medical validation, Google certification, legal compliance, or a ranking result.
 
 ## Safety Note
 

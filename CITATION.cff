@@ -1,13 +1,17 @@
 cff-version: 1.2.0
-message: "If you use this blueprint, cite the study package and final DOI once published."
-title: "Doctor YMYL Blueprint: Positive Outcomes Entity Separation Study"
-version: "0.3.0"
-date-released: "2026-07-01"
+message: "If you use this working-paper package, cite the DOI record and identify it as a public research archive rather than peer-reviewed research."
+title: "Trust Proof as Cognitive Alignment: A Two-Voice YMYL Case Study in Google, AI Search, Source Proof, Entity Separation, and Human Trust Psychology"
+version: "v19-final-links"
+date-released: "2026-07-03"
 authors:
+  - family-names: "Nasser"
+    given-names: "Richard Amir"
+    affiliation: "Inspector Roofing and Restoration"
   - family-names: "Gayer"
     given-names: "Harvey L."
     affiliation: "Positive Outcomes Psychological Services, P.C."
-  - name: "Positive Outcomes YMYL Study Team"
+doi: "10.5281/zenodo.21171669"
+abstract: "A public research archive documenting entity clarity, source provenance, and correction paths for a clinical psychology practice. It is not medical advice, clinical validation, legal advice, a ranking study, or a certification."
 keywords:
   - "YMYL"
   - "entity SEO"
